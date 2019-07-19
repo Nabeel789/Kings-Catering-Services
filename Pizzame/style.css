@@ -1,0 +1,56 @@
+.leftbody div a{
+	background-color: brown;
+	width: 150px;
+	display: block;
+	outline-style: solid;
+	outline-width: thin;
+	height: 10px;
+	padding: 10px 10px ;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+.homebody h1{
+	font-family: sans-serif;
+	margin-left: 10px;
+	color: brown;
+}
+.homebody div .para1{
+	letter-spacing: 5px;
+	font-size: 15px;
+	display: block;
+	padding: 30px;
+	background-color: beige;
+}
+.homebody div p{
+	font-family: sans-serif;
+	margin-top: 60px;
+	font-size: 15px;
+}
+.menubody div{
+	margin-top: 40px;
+	margin-left: 500px;
+	background-color: beige;
+	width: 500px;
+}
+.menubody h1{
+	color: brown;
+	margin-left: 10px;
+	font-family: sans-serif;	
+}
+.menubody ol{
+	list-style-type: lower-alpha;
+}
+.menubody ol ol{
+	list-style-type: lower-greek;
+}
+.contactbody div{
+	float: left;
+	width: 100px;
+	margin-left: 300px
+	}
+}
+.details{
+	float: right;
+}

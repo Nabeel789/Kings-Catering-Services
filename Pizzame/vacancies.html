@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 style="color: brown; font-style: italic; text-align: center;">Application for Employment</h1>
+	<fieldset>
+		<legend>Personal Details</legend>
+		<form>
+			Surname<input type="text" name="Surname"><br><br>
+			    Forename<input type="text" name="forename"><br><br>
+                Title<input type="text" name="title"><br><br>
+                Address<textarea cols="50" name="address"></textarea><br><br>
+                Email<input type="text" name="email"><br><br>
+                NIC<input type="text" name="nic"><br><br>
+                Date of Birth<input type="date" name="dob"><br><br>
+                Days Available<input type="radio" name="day" value="Monday">Monday<input type="radio" name="day" value="Tuesday">Tuesday<input type="radio" name="day" value="Wednesday">Wednesday<input type="radio" name="day" value="Thursday">Thursday<input type="radio" name="day" value="Friday">Friday<input type="radio" name="day" value="Saturday">Saturday<input type="radio" name="day" value="Sunday">Sunday<br><br>
+                Nationality<select name="Nationality">
+                	<option>Sinhala</option>
+                	<option>Tamil</option>
+                	<option>Muslim</option>
+                </select><br><br>
+                Do you have work Permit<input type="radio" name="workpermit">Yes<input type="radio" name="workpermit">No<br><br>
+		</form>
+	</fieldset>
+	<fieldset>
+            <legend>Education</legend>
+            <form>
+                School/College <input type="text" name="colOrscho"><br><br>
+                Qualification <textarea cols="50" name="qualification"></textarea><br><br>
+                Time Period <input type="text" name="timeperiod">
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies & Interests</legend>
+            <form>
+                <p>
+                    I confirm that the above information is complete and correct, 
+                    and false or misleading information will give the employer the right to reject my application 
+                    or to withdraw any employment contract offered or, employed dismiss without notice.
+                </p><br>
+                Name <input type="text" name="name"><br><br>
+                Date <input type="date" name="date2">
+            </form>
+        </fieldset>
+        <fieldset>
+        	<legend>Add CV</legend>
+        	<form>
+        		<input type="file" name="cv" value="choosefile">
+        		<input type="submit" name="submit" value="submit">
+        	</form>
+        </fieldset>
+</body>
+</html>
